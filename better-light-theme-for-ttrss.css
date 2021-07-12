@@ -1,0 +1,64 @@
+@import "../themes/light.css";
+
+/* Give main frame a padding */
+#headlines-frame {
+    padding: 10px !important;
+}
+
+/* Better visibility and spacing on articles */
+.cdm.expanded,
+.cdm.unread {
+    border: 1px solid lightgrey;
+    margin-bottom: 42px;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px #e6e6e6;
+}
+
+/* Move floating article header up to account for padding in main frame */
+.cdm.expanded .header,
+.cdm.unread .header {
+    top: -10px !important;
+}
+
+/* Make article header and footer more visible */
+.cdm .header,
+.cdm .footer {
+    background-color: #f5f5f5;
+}
+
+/* Make article header title text more visible */
+.cdm.expanded .header .titleWrap .title,
+.cdm.unread .header .titleWrap .title {
+    color: black !important;
+}
+
+/* Give content of articles a max width and padding */
+.content .content-inner {
+    max-width: 750px;
+    padding: 16px;
+}
+
+/* Make feed list items smaller and easier to read */
+#feedTree .dijitTreeContainer .dijitTreeRow {
+    height: 11px;
+    font-size: 12px !important;
+    color: black;
+}
+/* Hide unread number label on categories in feed list */
+#feedTree .dijitTreeContainer .dijitTreeRow.Is_Cat .unread {
+    display: none !important;
+}
+
+/* Hide scrollbar on feed list and give inset shadow */
+#feedTree {
+    overflow-y: hidden !important;
+    scrollbar-width: thin;
+    box-shadow: inset 0 5px 15px #e6e6e6;
+}
+
+/* Show small scrollbar (in Firefox only) when hovering over feed list */
+#feedTree:hover {
+    overflow-y: auto !important;
+    scrollbar-width: thin;
+}
+
