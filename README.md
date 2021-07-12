@@ -19,7 +19,7 @@ See screenshot comparison below too.
 
 ## Installation
 
-1. Copy the CSS file into the `themes.local` folder.
+1. Copy the `better-light-theme-for-ttrss.css` file into the `themes.local` folder.
 2. Select the theme in TT-RSS preferences.
 
 This theme depends on the 'light' theme being installed, but it should be installed by default.
