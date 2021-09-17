@@ -24,8 +24,8 @@ SOFTWARE.
 
 @import "../themes/light.css";
 
-/* Change the font to exclude 'system-ui' */
-body, .dijitTreeContent, .dijitButtonContents, .feed_title, .title {
+/* Change the font to not use 'system-ui' */
+body, .dijitTreeContent, .dijitButtonContents, .feed_title, .title, .counterNode, .dijitMenuItemLabel {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
