@@ -24,6 +24,11 @@ SOFTWARE.
 
 @import "../themes/light.css";
 
+/* Change the font to exclude 'system-ui' */
+body, .dijitTreeContent, .dijitButtonContents, .feed_title, .title {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
 /* Give main frame a padding */
 #headlines-frame {
     padding: 10px !important;
