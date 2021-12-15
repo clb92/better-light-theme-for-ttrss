@@ -1,15 +1,15 @@
 # Better light theme for Tiny Tiny RSS
 
-A better light theme for Tiny Tiny RSS, inspired by the look of [CommaFeed](https://github.com/Athou/commafeed). It's just a few modifications I made so it suits my personal preferences better.
+A better light theme for Tiny Tiny RSS, inspired by the look of [CommaFeed](https://github.com/Athou/commafeed). It's just a few modifications I made so it suits my personal preferences better. If you don't agree with my preferences, feel free to take this and modify it. See license below.
 
 **This theme is made for always expanded articles and 'combined mode' turned on**, otherwise you're not going to see most of the differences.
 
 ## Features
 
 - More whitespace around and between articles, so they don't blend together as much
+- Feed panel has less whitespace but better text contrast
 - Set a max width on article content
 - Better visible article header and footer
-- Feed panel has less whitespace but better text contrast
 - In feed panel, the scrollbar is only shown when overing over the panel
 - in feed panel the unread count labels are not shown on categories, only on feeds
 - In Firefox, the feed panel scrollbar is [thin](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-width) (Chrome, *please* support this in the future...)
